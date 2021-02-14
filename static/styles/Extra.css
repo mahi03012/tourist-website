@@ -1,0 +1,31 @@
+.navbar{
+    background:linear-gradient(80deg,rgba(0,0,0,.2) 50%,rgba(255,255,255,.4) 50%);
+    letter-spacing: 1px;
+}
+
+.center-div p{
+    color:#FFD700;
+    font-family: 'Cookie', cursive;
+    font-size: 2.5rem;
+
+}
+
+.nav-item a{
+    font-family: 'PT Mono', monospace;
+    color:#EAEFF2;
+    font-size: 18px;
+    margin:8px
+}
+
+.nav-item a:hover{
+    transform:translateY(2px);
+    
+}
+.ind{
+    color:#00E0D4;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 1.5rem;
+}
+.names h4{
+    margin-top: 5px;
+}

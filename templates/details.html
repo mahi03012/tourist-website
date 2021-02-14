@@ -1,0 +1,17 @@
+<div>
+<table border="2">
+
+<tr>
+<th>username</th>
+<th>email</th>
+<th>password</th>
+</tr>
+{% for dm in datas%}
+<tr>
+<th>{{dm.username}}</th>
+<th>{{dm.email}}</th>
+<th>{{dm.password}}</th>
+</tr>
+{% endfor %}
+</table>
+</div> 
